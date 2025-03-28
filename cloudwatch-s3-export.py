@@ -5,7 +5,6 @@ import re
 from datetime import datetime, timedelta
 
 client = boto3.client('logs')
-
 def lambda_handler(event, context):
     group_name = []
     groupnames = []
